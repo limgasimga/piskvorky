@@ -22,3 +22,11 @@ body {
   justify-content: center;
   align-items: center;
   }
+
+.panel {
+  border-radius: 10px 10px 0px 0px;
+  width: 375px;
+  margin: 0;
+  background-color: #283e50;
+  text-align: center;
+  }
