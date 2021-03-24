@@ -29,6 +29,7 @@ body {
   margin: 0;
   background-color: #283e50;
   text-align: center;
+  color: white;
 }
 
 .image {
@@ -47,4 +48,50 @@ p {
   font-family: 'Montserrat', sans-serif;
   margin: 0px 20px 25px 20px;
   padding-bottom: 20px;
+}
+
+.buttons {
+  width: 375px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;    
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+
+li {
+    display: block;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  }
+
+.button--first {
+  background-color:#1fcca4;
+  height: 50px;
+  border-bottom: solid 2px #283e50;
+}
+
+.button--second {
+  background-color: #0197f6;
+  height: 50px;
+}
+
+.button--first  a:hover {
+  background-color:#1cbb96; 
+}
+
+.button--second a:hover  {
+  background-color: #0090e9;
 }
