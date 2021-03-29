@@ -51,6 +51,7 @@ a {
   text-decoration: none;
   display: block;
   color: white;
+  height: 100%;
 }
 
 .button--first {
