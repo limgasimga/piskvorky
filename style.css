@@ -51,6 +51,10 @@ a {
   text-decoration: none;
   display: block;
   color: white;
+<<<<<<< HEAD
+=======
+  height: 100%;
+>>>>>>> 4a50c6e94124f6298d3dbaaa81e85d9e63611bbe
 }
 
 .button--first {
@@ -65,10 +69,14 @@ a {
 }
 
 .button--first  a:hover {
-  background-color:#1cbb96; 
+  background-color:#1cbb96;
+  height: 48px;
 }
 
 .button--second a:hover  {
   background-color: #0090e9;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a50c6e94124f6298d3dbaaa81e85d9e63611bbe
