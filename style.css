@@ -14,58 +14,85 @@ body {
   border-radius: 10px 10px 0px 0px;
   width: 375px;
   background-color: #283e50;
-  text-align: center;
   color: white;
-  margin: 10px;
+  text-align: center;
 }
 
-.image {
-  border-radius: 10px 10px 0px 0px;
+.panel--intro {
+  text-align: center;
+}
+
+.panel--rules {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
   width: 375px;
 }
 
-.name {
+.image--intro{
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image--rules{
+  padding: 25px;
+}
+
+.svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: bottom;
+  filter: invert(50);
+}
+
+h1{
   font-family: 'Lobster', cursive;
   font-size: 50px;
   margin: 25px;
   font-weight: 200;
+  text-align: center;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
   margin: 0px 20px 25px 20px;
-  padding-bottom: 20px;
+}
+
+ol{
+padding: 0px 25px;
+}
+
+li{
+margin: 25px;
 }
 
 .buttons {
   font-family: 'Montserrat', sans-serif;    
   font-size: 15px;
   line-height: 50px;
-}
-
-li {
-  display: block;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   display: block;
   color: white;
-<<<<<<< HEAD
-=======
-  height: 100%;
->>>>>>> 4a50c6e94124f6298d3dbaaa81e85d9e63611bbe
 }
 
 .button--first {
+  display: block;
   background-color:#1fcca4;
   height: 50px;
   border-bottom: solid 2px #283e50;
+  margin: 0;
 }
 
 .button--second {
   background-color: #0197f6;
   height: 50px;
+  display: block;
+  margin: 0;
 }
 
 .button--first  a:hover {
@@ -76,7 +103,24 @@ a {
 .button--second a:hover  {
   background-color: #0090e9;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 4a50c6e94124f6298d3dbaaa81e85d9e63611bbe
+@media screen and (min-width: 500px) {
+
+.panel--rules {
+  width: 750px;
+}
+
+.panel--images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.panel--item{
+  display: inline-block;
+}
+
+.panel--item p {
+max-width: 325px;}
+
+}
