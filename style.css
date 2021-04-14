@@ -18,24 +18,21 @@ body {
   text-align: center;
 }
 
-.panel--intro {
-  text-align: center;
-}
-
-.panel--rules {
+.panel__rules {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
 }
 
 img {
   width: 375px;
 }
 
-.image--intro{
+.image__intro{
   border-radius: 10px 10px 0px 0px;
 }
 
-.image--rules{
+.image__rules{
   padding: 25px;
 }
 
@@ -80,7 +77,7 @@ a {
   color: white;
 }
 
-.button--first {
+.button__first {
   display: block;
   background-color:#1fcca4;
   height: 50px;
@@ -88,39 +85,45 @@ a {
   margin: 0;
 }
 
-.button--second {
+.button__second {
   background-color: #0197f6;
   height: 50px;
   display: block;
   margin: 0;
 }
 
-.button--first  a:hover {
+.button__first  a:hover {
   background-color:#1cbb96;
   height: 48px;
 }
 
-.button--second a:hover  {
+.button__second a:hover  {
   background-color: #0090e9;
 }
 
 @media screen and (min-width: 500px) {
 
-.panel--rules {
+.panel__rules {
   width: 750px;
 }
 
-.panel--images {
+.panel__images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 25px;
+  justify-content: center;
 }
 
-.panel--item{
-  display: inline-block;
+figure{
+  margin: 0;
 }
 
-.panel--item p {
-max-width: 325px;}
+figcaption {
+max-width: 325px;
+text-align: center;
+margin: 0;
+max-width: 375px;
+padding: 0px 25px ; }
 
 }
