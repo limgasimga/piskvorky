@@ -126,3 +126,102 @@ figcaption {
   height: auto;
   padding: 0px 25px ; }
 }
+
+/*hra.html
+*/
+
+.gameField {
+  width: 80vmin;
+}
+
+.field {
+display: grid;
+/*grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));*/
+grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+width: 80vmin;
+height: 80vmin;
+}
+
+.field__button {
+  background-color: white;
+  opacity: 30%;
+  padding: 0;
+  border: solid 1px #283e50;
+  border-collapse: collapse;
+}
+
+.field__button ::before {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
+
+ .field__button:hover {
+  background-color: white;
+  opacity: 50%;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.icons__svg {
+  margin-left: 7px;
+}
+
+.game__svg--green,
+.game__svg--blue {
+  width: 25px;
+  height: 25px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icons__left p {
+  margin: 0;
+  text-align: center;
+}
+
+.icons__left {
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icons__right {
+  display: flex;
+}
+
+.icons__right--blue,
+.icons__right--green {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+
+.icons__right--blue {
+  margin-left: 10px;
+  background-color: #0197f6;
+  border-radius: 5px;
+}
+
+.icons__right--green {
+  background-color: #1cbb96;
+  border-radius: 5px;
+}
+
+.icons__right--blue:hover  {
+  background-color: #0090e9;
+}
+.icons__right--green:hover {
+  background-color:#1fcca4;
+}
