@@ -113,22 +113,6 @@ a {
   background-color: #0090e9;
 }
 
-@media screen and (min-width: 500px) {
-
-.panel__rules {
-  max-width: 750px;
-  width: 100%;
-}
-
-figcaption {
-  margin: 0;
-  max-width: 375px;
-  height: auto;
-  padding: 0px 25px ; }
-}
-
-/*hra.html
-*/
 
 .gameField {
   width: 80vmin;
@@ -156,7 +140,8 @@ height: 80vmin;
   display: block;
 }
 
- .field__button:hover {
+ .field__button:hover,
+ .field__button:focus {
   background-color: white;
   opacity: 50%;
 }
@@ -225,3 +210,19 @@ p {
 .icons__right--green:hover {
   background-color:#1fcca4;
 }
+
+@media screen and (min-width: 500px) {
+
+.panel__rules {
+  max-width: 750px;
+  width: 100%;
+}
+
+figcaption {
+  margin: 0;
+  max-width: 375px;
+  height: auto;
+  padding: 0px 25px ; }
+}
+
+
