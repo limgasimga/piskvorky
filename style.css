@@ -207,8 +207,21 @@ p {
 .icons__right--blue:hover  {
   background-color: #0090e9;
 }
+
 .icons__right--green:hover {
   background-color:#1fcca4;
+}
+
+.board__field--circle {
+  background-image: url(image/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+  
+.board__field--cross {
+  background-image: url(image/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media screen and (min-width: 500px) {
